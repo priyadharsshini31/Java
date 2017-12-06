@@ -1,0 +1,37 @@
+import java.io.*;
+
+public class finaldemo {
+final int THRESHOLD = 10;
+final int GO;
+{
+GO = 20;
+}
+final static double PI;
+final int GONE;
+static{
+	PI = 3.14;
+}
+public finaldemo()
+{ 
+	GONE = 100;
+}
+static int arr[] ={1,2,3};
+
+public static void main(String[] args)
+{
+	
+	 final StringBuffer sb = new StringBuffer("Priya");
+	 sb.append("dharsshini");
+	 System.out.println(sb);
+	 for (final int i : arr)
+	 {
+		 System.out.println(i+" ");
+	 }
+	 
+	 
+	 
+	
+	
+}
+}
+
