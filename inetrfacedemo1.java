@@ -8,7 +8,7 @@ interface demo1
 public class interface_demo implements demo1 {
 	public void demo_display()
 	{
-		System.out.println("Iam the definition for the display interface");
+		System.out.println("Iam the definition for the display interface"+i);
 		
 	}
 	public static void main(String[] args)
