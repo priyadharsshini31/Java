@@ -1,0 +1,29 @@
+import java.io.*;
+interface in1
+{
+	default void display()
+	{
+		System.out.println("hello");
+	
+	}
+}
+
+interface in2 
+{
+	default void display(){
+		System.out.println("bye");
+	}
+	
+				 
+}
+public class multiple_inheritance_interface_demo1 implements in1,in2 {
+public void display()
+{
+	in2.super.display();
+}
+	public static void main(String[] args)
+{
+	multiple_inheritance_interface_demo1 m1= new multiple_inheritance_interface_demo1();
+	m1.display();
+}
+}
