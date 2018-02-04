@@ -9,7 +9,7 @@ public class white {
 		System.out.println("Enter the String");
 		Scanner sc = new Scanner(System.in);
 		str=sc.nextLine();
-		replace1=str.replaceAll(" ", "%s");
+		replace1=str.replaceAll(" ", "");
 		System.out.println("The string is"+replace1);
 		
 	}
